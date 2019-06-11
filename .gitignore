@@ -1,0 +1,33 @@
+#built application files
+*.war
+dependency-reduced-pom.xml
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+log/
+activemq-data
+*.log
+
+# Eclipse project files
+.classpath
+.project
+.metadata
+.settings
+
+# Intellij
+*.iml
+.idea
+build/
+
+#Merge-files
+build_BACKUP*
+build_BASE*
+build_LOCAL*
+build_REMOTE*
+*.orig
+target/
+pg-embedded/
